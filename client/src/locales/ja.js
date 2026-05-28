@@ -311,6 +311,36 @@ export default {
     selectLanguage: '言語を選択'
   },
 
+  // Reports
+  reports: {
+    title: 'パフォーマンスレポート',
+    description: '四半期および前月比の注文パフォーマンス',
+    quarterly: {
+      title: '四半期パフォーマンス',
+      quarter: '四半期',
+      totalOrders: '注文合計',
+      totalRevenue: '総収益',
+      avgOrderValue: '平均注文額',
+      delivered: '配送済み',
+      fulfillmentRate: '充足率'
+    },
+    monthlyTrend: '月次収益トレンド',
+    momAnalysis: '前月比分析',
+    mom: {
+      month: '月',
+      orders: '注文数',
+      revenue: '収益',
+      change: '増減'
+    },
+    summary: {
+      title: '概要',
+      totalRevenue: '総収益（年初来）',
+      avgMonthly: '月平均収益',
+      totalOrders: '注文合計',
+      bestQuarter: '最高四半期'
+    }
+  },
+
   // Common
   common: {
     loading: '読み込み中...',
