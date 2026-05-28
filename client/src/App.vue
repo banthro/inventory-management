@@ -25,6 +25,9 @@
           <router-link to="/reports" :class="{ active: $route.path === '/reports' }">
             Reports
           </router-link>
+          <router-link to="/backlog" :class="{ active: $route.path === '/backlog' }">
+            {{ t('nav.backlog') }}
+          </router-link>
         </nav>
         <LanguageSwitcher />
         <ProfileMenu
